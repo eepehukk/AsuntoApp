@@ -1,0 +1,26 @@
+.housing-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 1em;
+  }
+  
+  .housing-table th, .housing-table td {
+    border: 0.1em solid lightgray;
+    padding: 2%;
+    text-align: left;
+  }
+  
+  .housing-table th {
+    background-color: lightgray;
+  }
+  
+  input {
+    font-size: 12pt;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 400px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid .3px;
+  }
