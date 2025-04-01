@@ -124,13 +124,13 @@ export class ManageHousingComponent {
   }
 
   showEditList() {
-    this.showAddHouse = false;  // Hide the "Add House" form
-    this.showList = true;       // Show the edit list form
+    this.showAddHouse = false;  // Näytä edit lsita ja piilota lisää ilmoitus formi
+    this.showList = true;       
   }
 
   showAddHouseForm() {
-    this.showList = false;  // Hide the edit list form
-    this.showAddHouse = true;  // Show the "Add House" form
+    this.showList = false;  // Näytä lisää ilmoitus formi ja piilota edit ikkuna
+    this.showAddHouse = true;  
   }
 
   cancelAdd() {
